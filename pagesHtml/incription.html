@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+    <img class="img_center" src="../images/logo IIT.png" alt="image iit" width="400" height="200">
+    <h1> <b>Institut International de Technologie de Sfax </b> </h1>
+    <img class="img_iit" src="../images/campus.jfif" alt="batiment" width="1000">
+    <nav>
+            <a href="../index.html">Actualité</a>
+            <a id="menu_actuelle" href="incription.html">Inscription</a>
+            <a href="galerie.html">Galerie</a>
+    </nav>
+    </header>
+    <main>
+        <fieldset>
+            <legend>Inscription étudiant</legend>
+            <label for="Nom">Nom :</label>
+            <input type="text" name="Nom" id="Nom"><br>
+            <label for="pre">Prenom :</label>
+            <input type="text" name="pre" id="pre"><br>
+            <label for="naiss">Naissance :</label>
+            <input type="date" name="naiss" id="naiss"><br>
+            Sexe:
+            <input type="radio" name="sexe" value="feminin" id="f">
+            <label for="f">feminin</label>
+            <input type="radio" name="sexe" value="masculine" id="m">
+            <label for="m">masculine</label>
+            <br>
+            <label for="pay">Pays</label>
+            <select name="pay" id="pay" aria-placeholder="">
+                <option value="tunisie">Tunisie</option>
+                <option value="France">France</option>
+                <option value="Belgique">Belqig</option>
+            </select>
+            <br>
+            Langues : <br>
+            <input type="checkbox" name="arabe" id="arabe">
+            <label for="arabe">Arabe</label><br>
+            <input type="checkbox" name="ang" id="ang">
+            <label for="ang">Anglais</label><br>
+            <input type="checkbox" name="fran" id="fran">
+            <label for="fran">Francais</label>
+            <br>
+            <label for="img">Image</label>
+            <input type="file" name="img" id="img" accept="images/*">
+            <br>
+            <button type="button">Valider</button>
+        </fieldset>
+        
+
+    </main>
+    <footer>
+        <p>Rpute mharza km 1.5</p>
+        <p>TEL : +261 74 465 020</p>
+        <a href="mailto:contact.iit@iit.tn">MAIL : mailto:contact.iit@iit.tn</a>
+    </footer>
+</body>
+</html>
